@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("image/sds.png") ;
+    background-repeat: no-repeat , repeat-x;
+    
+}
+
+.headers{
+   width: 100%;
+   height: 90px;
+   display: flex;
+   justify-content: space-between;
+}
+.logo{
+    width: 25%;
+    height: 60px;
+    float: left;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+.yazi{
+    width: 50%;
+    height: 60px;
+    float: left;
+    display: flex;
+    
+}
+.yazi a{
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    font-family:monospace, arial, helvetica;
+    
+    margin-right: 30px;
+    
+}
+
+.yazi ul{
+    margin: 20px;
+    height: 50px;
+    padding-left: 60px;
+}
+.yazi ul li{
+  line-height:50px;
+  list-style:none;
+  float:left;
+  font-size:15px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.yazi ul li:hover{
+    border-bottom: 1px solid white;
+}
+.login{
+    width: 25%;
+    height: 60px;
+    float: left;
+}
+.login a{
+    text-decoration: none;
+    color: white;
+    text-transform:uppercase;
+    
+}
+.login ul{
+    margin: 20px;
+    height: 50px;
+    padding-left: 10px;
+}
+.login .giris ul li {
+  line-height:50px;
+  list-style:none;
+  font-size:15px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  float: left;
+}
+
+.login .giris  li img{
+    margin: -13px;
+    margin-left: 20px;
+    
+}
+.s1{
+    margin-top: 10px;
+}
+.search{
+    width:100%;
+    height: 70px;
+    
+    
+}
+.search ul{
+    list-style-type: none;
+}
+.search ul li{
+    text-decoration: none;
+    position: absolute;
+    left: 320px;
+    
+}
+.search li a{
+    text-decoration: none;
+    color: black;
+}
+.search .k1{
+    background-color: white;
+    padding: 16px;
+    padding-left: 35px;
+    padding-right: 400px;
+    border: solid 1px white;
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+}
+.search .k2{
+    background-color: white;
+    left: 601px;
+    border: solid 1px white;
+    border-left-color: rgb(133, 126, 126);
+    padding: 16px;
+    padding-left:40px;
+    padding-right:400px;
+}
+.search .k3{
+    background-color: white;
+    left: 816px;
+    border: solid 1px white;
+    border-left-color: rgb(133, 126, 126);
+    padding: 16px;
+    padding-left: 40px;
+    padding-right:200px;
+}
+.search .k4{
+    background-color: white;
+    left: 1000px;
+    border:  solid 1px white;
+    border-left-color: rgb(133, 126, 126);
+    padding: 16px;
+    padding-left:50px;
+    padding-right:100px;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+    background-image: url("image/arama.png");
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    
+}
+
+.paragraf p{
+    position: absolute;
+    bottom :110px;
+    left: 120px;
+    font-size: 60px;
+    font-family: sans-serif;
+    color: white;
+}
+.kutu{
+    position: absolute;
+    bottom :50px;
+    left: 120px;
+    font-size: 25px;
+}
+.kutu a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.kutu a:hover{
+    background-color: orange;
+}
+.neresi{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    border: solid 1px white;
+    border-radius: 10px ;
+    
+}
+.neresi1{
+    opacity: 1;
+}
+.neresi .isim{
+    position: relative;
+    font-size: 30px;
+    color: red;
+    margin-top: 15px;
+    border-bottom: 1px black solid;
+    padding-bottom: 10px;
+}
+.neresi .isim span{
+    position: relative;
+    left: 40%;
+}
+
+.neresi .bölge ul{
+    list-style-type: none;
+    font-size: 25px;
+    padding: 10px;
+    background-color: white;
+
+    border-radius: 10px;
+}
+.neresi .bölge ul li{
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    
+}
+.neresi .bölge ul li:hover{
+    background-color: orange;
+}
